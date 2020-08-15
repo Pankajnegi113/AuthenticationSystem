@@ -1,0 +1,56 @@
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    text-align: center;
+
+    color: #495057;
+}
+
+.container{
+     background-color: white; 
+    border: 2px solid black;
+    height: 80vh;
+    width: 80%;
+    margin-top: 5%;
+}
+
+
+
+.card-body:nth-child(1), .list-group{
+    margin-top: 5%;
+}
+
+.card-text{
+    word-wrap: normal;
+}
+
+.text2{
+    margin-right: -20%;
+}
+
+.text1{
+    margin-left: 16%;
+}
+
+form{
+   margin-left: 32%;
+   margin-top: 4%;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.changeBtn{
+    border-radius: 1.5rem;
+    width: 60%;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    padding: 2%;
+    border:none;
+    height: 40%;
+    background: -webkit-linear-gradient(left, #2646ad, #195768);
+    margin-top: 3%;
+    padding: 3%;
+    text-align: center;
+}
